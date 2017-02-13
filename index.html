@@ -3,26 +3,54 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="shortcut icon" href="img/logo.jpg"/>
+	<!-- CSS Mi hoja de estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
 	<!-- Jquery -->
 	<script type="text/javascript" src="src/jquery/jquery.min.js"></script>
 	<!-- Bootstrap -->
 		<!--Import Bootstrap CSS-->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="src/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<!--Import Bootstrap JS-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="src/bootstrap/js/bootstrap.min.js"></script>
 	<!-- Materialize -->
 		<!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
       <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="src/materialize/css/materialize.min.css"  media="screen,projection"/>
+    <!-- <link type="text/css" rel="stylesheet" href="src/materialize/css/materialize.min.css"  media="screen,projection"/> -->
       <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="src/materialize/js/materialize.min.js"></script>
+    <!-- <script type="text/javascript" src="src/materialize/js/materialize.min.js"></script> -->
     <!-- Titulo -->
 	<title>Sistema de control de colegio bíblico nivel nacional</title>
 </head>
 <body>
-<section>
-	
-</section>
+	<header>
+		<img src="img/logo.jpg" alt="Logo Aeropuerto Culiacan">
+		<div class="page-header">
+		  <h1>Contratos de servicio <br><small>Aeropuerto Internacional de Culiacán</small></h1>
+		</div>
+		<div id="nombreusuario"></div><br>
+		<nav id="menuprincipal">
+			<ul> 
+				<li><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-home" aria-hidden="true"> Inicio</button></li>
+				<li><button type="button" class="btn btn-danger" id="btnmenuAltaUsuario"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Alta de Usuarios</button></li>
+				<li><button type="button" class="btn btn-danger" id="btnmenuConsultaUsuario"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"> Consultar Usuarios</button></li>
+				<li><button type="button" class="btn btn-danger" id="btnmenuBuscaUsuario"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"> Busca</button></li>
+				<li><button type="button" class="btn btn-danger" id="btnmenuEliminaUsuario" ><span class="glyphicon glyphicon-remove" aria-hidden="true"> Bajas</button></li>
+				<li><button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-repeat" aria-hidden="true"> Cambios</button></li>
+				<li><button type="button" class="btn btn-default" id="btnmenuSalir"><span class="glyphicon glyphicon-off" aria-hidden="true"> Salir</button></li>
+			</ul>
+		</nav>
+		<nav id="menusecundario">
+			<ul> 
+				<li><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-home" aria-hidden="true"> Inicio</button></li>
+				<li><button type="button" class="btn btn-danger" id="btnmenuAltaEmpresa"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Mis Datos</button></li>
+				<li><button type="button" class="btn btn-danger" id="btnmenuConsultaUsuario"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"> Contrato</button></li>
+				<li><button type="button" class="btn btn-danger" id="btnmenuBuscaUsuario"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"> Trabajadores</button></li>
+				<li><button type="button" class="btn btn-default" id="btnmenusecundarioSalir"><span class="glyphicon glyphicon-off" aria-hidden="true"> Salir</button></li>
+			</ul>
+		</nav>
+		<br>
+		<br>
+	</header>
 </body>
 </html>

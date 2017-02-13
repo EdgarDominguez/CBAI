@@ -1,0 +1,22 @@
+/*Hoja de estilos personalizados*/
+body 
+{
+	max-width: 1024px;
+	margin: 0 auto;
+}
+img
+{
+	width: 100px;
+	height: 100px;
+	float: right;
+	margin: 0px 50px 10px 0px;
+}
+header nav 
+{
+	text-align: center;
+}
+header nav ul li
+{
+	display: inline-block;
+	margin-right: 10px;
+}
